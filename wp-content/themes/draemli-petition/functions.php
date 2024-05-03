@@ -17,3 +17,4 @@ add_action( 'wp_enqueue_scripts', 'draemli_petition_style' );
 
 /* Zwingend benötigte Dateien hinzufügen */
 require_once get_stylesheet_directory() . '/inc/inline-css.php';
+require_once get_stylesheet_directory() . '/inc/gravityforms.php';
