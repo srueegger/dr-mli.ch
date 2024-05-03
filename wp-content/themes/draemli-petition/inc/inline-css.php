@@ -6,7 +6,7 @@ function add_inline_css_to_head() {
 				scroll-behavior: smooth;
 			}
 			summary::marker {
-				color: var(--wp--preset--color--custom-gr-n) !important;
+				color: var(--wp--preset--color--custom-gr-n);
 			}
 	</style>
 	<?php
