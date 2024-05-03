@@ -1,0 +1,17 @@
+{
+  "name": "acf/sharebuttons",
+  "title": "Share Buttons",
+  "description": "Dieser Block zeigt die Share Buttons an",
+  "style": [ "file:./sharebuttons.css" ],
+  "script": [ "file:./sharebuttons.js" ],
+  "category": "formatting",
+  "icon": "share",
+  "keywords": ["Share", "Teilen", "Buttons"],
+  "acf": {
+      "mode": "preview",
+      "renderTemplate": "sharebuttons.php"
+  },
+  "supports": {
+      "anchor": true
+  }
+}

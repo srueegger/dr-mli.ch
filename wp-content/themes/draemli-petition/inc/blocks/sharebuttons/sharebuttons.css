@@ -1,0 +1,40 @@
+.sharebuttons-block {
+  padding: 25px 0;
+}
+
+.sharebuttons {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+  li {
+    display: inline-block;
+    background-color: var(--wp--preset--color--contrast);
+    width: 56px;
+    height: 56px;
+    border-radius: 7px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 15px;
+    border: 1px solid var(--wp--preset--color--contrast);
+    transition: all 0.3s;
+    line-height: 56px;
+    a,
+    span {
+      color: var(--wp--preset--color--custom-gr-n);
+      font-size: 1.7rem;
+      transition: all 0.5s;
+    }
+    &:last-of-type {
+      margin-right: 0;
+    }
+    &:hover {
+      background-color: var(--wp--preset--color--custom-gr-n);
+      a,
+      span {
+        color: var(--wp--preset--color--contrast);
+      }
+    }
+  }
+}
