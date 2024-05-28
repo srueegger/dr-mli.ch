@@ -19,3 +19,9 @@ add_action( 'wp_enqueue_scripts', 'draemli_petition_style' );
 require_once get_stylesheet_directory() . '/inc/inline-css.php';
 require_once get_stylesheet_directory() . '/inc/gravityforms.php';
 require_once get_stylesheet_directory() . '/inc/acf.php';
+
+/* Theme Color definieren */
+function add_theme_color_meta_tag() {
+	echo '<meta name="theme-color" content="#00843d">';
+}
+add_action('wp_head', 'add_theme_color_meta_tag');
